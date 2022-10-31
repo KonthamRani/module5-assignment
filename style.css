@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%; */
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.navBar{
+    /* position: absolute; */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    /* or 25px */
+    
+    letter-spacing: -0.03em;
+    padding-top: 120px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    
+   font-size: 40px;
+}
+.list-items ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    
+}
+.list-items li{
+    list-style: none;
+
+}
+.list-items li a{
+    text-decoration: none;
+    color: black;
+}
+
+header .name{
+    /* position: relative; */
+    /* width: 360px;
+    height: 129px;
+    left: calc(50% - 360px/2 - 380px);
+    top: 360px; */
+    font-size: 30px;
+    margin-top: 260px;
+    width: 360px;
+    height: 400px;
+    line-break: auto;
+    line-height: 1;
+    font-family: 'DM Sans';
+    font-style: normal;
+
+}
+header .description p{
+    /* position: absolute; */
+    width: 580px;
+    height: 111px;
+    left: calc(50% - 580px/2 + 206px);
+    top: 424px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 32px;
+}
+header .align{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .align .name i{
+    padding-top: 120px;
+}
+header.icon{
+   padding-right: 30px;
+}
+
+/* SECTIONS */
+
+/* SECTION 1 */
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.section-1 .content{
+    height: 169px;
+    width: 356px;
+    left: 0px;
+    top: 44px;
+    padding-top:30px
+
+}
+.section-1 .content .project-name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+    
+    letter-spacing: -0.03em;
+    padding-bottom: 25px;
+}
+.section-1 .content .project-body h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+}
+.section-1 .content .project-body{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+}
+
+.section-1 .content .project-body p{
+    /* Sub-text */
+    padding-top: 33px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 121.5%;
+/* or 17px */
+
+letter-spacing: -0.03em;
+}
+.section-1 .project-link{
+    padding-top: 40px;
+    height: 20px;
+    width: 326.2135925292969px;
+    left: 0px;
+    top: 347px;
+    border-radius: nullpx;
+    padding-bottom: 40px;
+    /* Sub Header / Link */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* or 22px */
+
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+
+    /* Main Black */
+
+    color: #181717;
+
+}
+.section-1 .thumbnail img{
+    height: 300px;
+    width: 640px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-size: cover;
+}
+/* FOOTER */
+footer{
+    /* position: absolute; */
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    font-family: 'DM Sans';
+}
+footer .name{
+    color: #2429AF;
+}
+footer .items ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+footer .items ul li{
+    list-style: none;
+}
+footer .items ul li a{
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    color: #181717;
+    /* or 25px */
+
+    letter-spacing: -0.03em;
+}
